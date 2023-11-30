@@ -3,6 +3,9 @@
 > [!CAUTION]
 > Do this at your own risk!
 
+> [!IMPORTANT]
+> This is still in work in progress and incomplete. 
+
 ## Install Raspberry Pi OS (lite)
 
 1. [Download the Pi Imager](https://www.raspberrypi.com/software/)
