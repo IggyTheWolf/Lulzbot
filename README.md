@@ -35,8 +35,8 @@
 ## [Building and Flashing your MCU](https://www.klipper3d.org/Installation.html#building-and-flashing-the-micro-controller)
 
 1. Log in to Klipper via SSH
-1. ``cd ~/klipper/
-make menuconfig``
+1. `cd ~/klipper/`
+1. `make menuconfig`
 1. Configure your settings according to the micro controller you are using.
    - Stock Rambo board (Taz6, Mini1, Mini2)
       - AVR atmega2560
@@ -48,9 +48,9 @@ make menuconfig``
 1. You printer should appear and look something like this. This is a unique ID and you'll need it later for the config file as well.
    - `/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0`
 1. Now it's time to flash your board. Replace the ID with the one you got in the previous step.
-   - ``sudo service klipper stop
-make flash FLASH_DEVICE=/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0
-sudo service klipper start``
+   - `sudo service klipper stop`
+   - `make flash FLASH_DEVICE=/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0`
+   - `sudo service klipper start`
 1. Reboot everything `sudo reboot`
 
 ## Adding and Configuring the printer.cfg
